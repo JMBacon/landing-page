@@ -53,6 +53,7 @@
 .intro {
     display: flex;
     background-color: #1F2937;
+    flex-wrap: wrap-reverse;
 }
 
 .intro-item {
@@ -125,6 +126,7 @@
     display: flex;
     justify-content: center;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 .info-two li {
@@ -207,6 +209,7 @@ margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 .action-button button {
